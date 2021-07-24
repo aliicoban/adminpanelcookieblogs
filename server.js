@@ -235,6 +235,9 @@ var userList = [
     }
   ];
 
+app.get("/", function(){
+    return "Welcome CookieBlogs";
+})
 app.get('/api/user', function (request, response) {
     return response.status(200).send(userList);
 });
