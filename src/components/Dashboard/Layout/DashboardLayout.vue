@@ -33,13 +33,6 @@
             }"
           />
         </sidebar-item>
-        <sidebar-item
-          :link="{
-            name: 'Typography',
-            path: '/components/typography',
-            icon: 'nc-icon nc-caps-small',
-          }"
-        />
 
         <sidebar-item
           :link="{
@@ -49,41 +42,7 @@
           }"
         >
         </sidebar-item>
-        <sidebar-item
-          :link="{
-            name: 'Notifications',
-            path: '/components/notifications',
-            icon: 'nc-icon nc-bell-55',
-          }"
-        >
-        </sidebar-item>
-        <sidebar-item
-          :link="{
-            name: 'Icons',
-            icon: 'nc-icon nc-planet',
-            path: '/components/icons',
-          }"
-        >
-        </sidebar-item>
-        <sidebar-item
-          :link="{
-            name: 'Maps',
-            icon: 'nc-icon nc-pin-3',
-            path: '/maps/google',
-          }"
-        >
-        </sidebar-item>
-        <sidebar-item
-          :link="{
-            name: 'Upgrade to PRO',
-            icon: 'fa fa-download',
-            target: '_blank',
-            isRoute: true,
-            path:
-              'https://www.creative-tim.com/product/vue-paper-dashboard-pro-laravel',
-          }"
-          class="btn-sm btn-danger"
-        ></sidebar-item>
+
       </template>
     </side-bar>
     <sidebar-share

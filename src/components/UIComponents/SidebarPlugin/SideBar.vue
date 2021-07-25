@@ -49,7 +49,7 @@ export default {
   props: {
     title: {
       type: String,
-      default: "Vue PDP",
+      default: "Cookie Blogs",
       description: "Sidebar title",
     },
     backgroundColor: {
